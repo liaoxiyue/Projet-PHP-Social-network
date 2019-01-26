@@ -1,0 +1,196 @@
+@charset "utf-8";
+/* CSS Document */
+
+html{
+	background-image: url(img/back.gif);
+        background-repeat: no-repeat;
+        background-size:1980px,1020px;
+        background-attachment: fixed;
+        font-family:Arial, helvetica,sans-serif;
+        font-size: 25px
+}
+
+body{
+        background:rgba(225, 225, 225, 0.9);
+	width:1300px;
+	margin-left:auto; 
+	margin-right:auto;
+	margin-top:50px;
+	margin-bottom:50px;
+	padding:30px;
+	border-style:dashed;
+	border-width:1px;
+	border-radius:15px;
+}
+
+
+input{
+        height: 30px;
+        font-size: 23px;
+}
+select{
+        height: 30px;
+        font-size: 23px;
+}
+option{
+        font-size: 23px;
+}
+
+h3{
+    text-align: center;
+}
+
+body.index,body.decon,body.inscrir{
+        height: 700px;
+}
+
+table.log{
+        height:50px;
+        width:1000px;
+        border-style:dashed;
+	border-width:1px;
+        margin-left:auto; 
+	margin-right:auto;
+	margin-top:20px;
+	padding:20px;
+}
+
+div.inscrire{
+        width:1000px;
+        height: 430px;
+        border-style:dashed;
+	border-width:1px;
+        margin-left:auto; 
+	margin-right:auto;
+	margin-top:20px;
+	padding:20px;
+}
+
+div.inscrire1{
+        width:45%;
+        float: left;
+        margin-top: 40px;
+        padding:20px;
+}
+
+div.inscrire2{
+        width:45%;
+        float: left;
+        padding:20px;
+}
+
+div.inscrire3{
+        width:30%;
+        margin-left:auto; 
+	margin-right:auto;
+        padding:20px;
+}
+
+button.Apprecier{
+        background: url(img/jaime.png) no-repeat;
+        width: 20px;
+        height: 20px;
+        border: none;
+}
+
+div.head{
+        width:1300px;
+        margin-left: auto;
+        margin-right: auto;
+        background:rgba(150, 150, 150, 0.3);
+}
+
+td.header{
+        width:70px;
+}
+
+td.bienvenu{
+        width:1000px;
+        font-size:30px;
+        text-align: center;
+}
+
+div.cherche{
+        width:1300px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        }
+
+div.EcrireCommentaire{
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        font-size:25px;
+        text-align: center;
+        background:rgba(150, 150, 150, 0.3);
+        padding:5px;
+}
+
+div.LireCommentaire{
+        width:800px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 40px;
+}
+
+table.Commentaire{
+        width:700px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px;
+        border: 1px;
+        border-style:dashed;
+}
+
+td.date{
+        text-align: right;
+}
+
+div.commentaire{
+        font-size:30px;
+        width: 730px;
+        height: 100px;
+        border: 1px;
+        border-style:dashed;
+        background:rgba(250, 250, 250, 1)
+}
+
+td.Apprecier{
+        text-align: right;
+}
+
+td.PubCC{
+        text-align: right;
+}
+
+td.coeur{
+        width: 20px;
+}
+
+table.CC{
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px;
+        border-style:dashed;
+        padding: 10px;
+}
+
+div.CC{
+        font-size:20px;
+        width: 620px;
+        height: 100px;
+        border: 1px;
+        border-style:dashed;
+        background:rgba(250, 250, 250, 1)
+}
+
+table.cherche,table.profil,table.inscrir{
+        margin-left: auto;
+        margin-right: auto;
+        font-size:25px;
+        padding: 10px;
+        background:rgba(250, 250, 250, 1);
+}
